@@ -30,7 +30,7 @@ This project is a full-stack web application that replicates some of the core fe
 - **User Authentication**: Users can sign up, log in, and log out. Authentication is handled using JWT tokens.
 - **Secure Password Storage**: Passwords are hashed using bcryptjs to ensure user data security.
 - **Stock Charts**: View stock performance in real-time using interactive charts powered by Chart.js.
-- **Responsive Design**: The frontend is styled using Material-UI to ensure the application is mobile-friendly.
+- **Design**: The frontend is styled using bootstrap and Material-UI to ensure the application is user-friendly.
 - **Notifications**: React-Toastify is used to display real-time notifications for actions like login, logout, and trade actions.
 
 
