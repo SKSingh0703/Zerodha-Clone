@@ -18,7 +18,7 @@ const SignIn = () => {
         password,
       });
       if (response.status===201) {
-        window.location.href = "http://localhost:3000";
+        window.location.href = "https://zerodha-clone-landingpage.onrender.com";
       }
     console.log(response);
       setLoggingIn(false);
