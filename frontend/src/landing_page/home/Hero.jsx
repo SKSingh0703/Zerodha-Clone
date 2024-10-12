@@ -1,6 +1,8 @@
 import React from 'react'
+import {useNavigate} from "react-router-dom"
 
 function Hero() {
+  const navigate = useNavigate();
   return (
     <div className='container p-5 text-center mb-5' >
        <div className="row">
@@ -9,7 +11,7 @@ function Hero() {
            Invest in everything
         </h1>
         <p className='fs-5 opacity-85'>Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
-        <button className='opacity-75 p-2 btn btn-primary fs-5 mb-5' style={{width:"20%",margin:"0 auto"}}>Sign up for free</button>
+        <button onClick={() => {navigate("/signup")}} className='opacity-75 p-2 btn btn-primary fs-5 mb-5' style={{width:"20%",margin:"0 auto"}}>Sign up for free</button>
        </div>
        
     </div>
