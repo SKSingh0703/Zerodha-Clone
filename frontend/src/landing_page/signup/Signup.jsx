@@ -17,7 +17,7 @@ const SignUp = () => {
     e.preventDefault();
     try {
       setLoggingIn(true);
-      const response = await axios.post("http://localhost:3002/signup", {
+      const response = await axios.post("https://zerodha-clone-backend-dmzr.onrender.com/signup", {
         email,
         password,
         username,
